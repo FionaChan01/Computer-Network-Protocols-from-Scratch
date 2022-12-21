@@ -1,0 +1,18 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/THINKPAD/Documents/Tencent Files/1183289675/FileRecv/大三上/计算机网络/20184353何俊亮project/app1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/MinGW/bin/mingw32-make.exe cmTC_c26b9/fast && D:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c26b9.dir\build.make CMakeFiles/cmTC_c26b9.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/THINKPAD/Documents/Tencent Files/1183289675/FileRecv/大三上/计算机网络/20184353何俊亮project/app1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c26b9.dir/testCCompiler.c.obj
+D:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_c26b9.dir\testCCompiler.c.obj   -c "C:\Users\THINKPAD\Documents\Tencent Files\1183289675\FileRecv\澶т笁涓奬璁＄畻鏈虹綉缁淺20184353浣曚繆浜畃roject\app1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+gcc.exe: error: C:\Users\THINKPAD\Documents\Tencent Files\1183289675\FileRecv\澶т笁涓奬璁＄畻鏈虹綉缁淺20184353浣曚繆浜畃roject\app1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+CMakeFiles\cmTC_c26b9.dir\build.make:84: recipe for target 'CMakeFiles/cmTC_c26b9.dir/testCCompiler.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_c26b9.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/THINKPAD/Documents/Tencent Files/1183289675/FileRecv/大三上/计算机网络/20184353何俊亮project/app1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_c26b9/fast' failed
+mingw32-make.exe: *** [cmTC_c26b9/fast] Error 2
+
+
+

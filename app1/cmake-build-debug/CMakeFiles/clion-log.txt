@@ -1,0 +1,40 @@
+"D:\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\THINKPAD\Documents\Tencent Files\1183289675\FileRecv\大三上\计算机网络\20184353何俊亮project\app1"
+-- The C compiler identification is GNU 9.2.0
+-- Check for working C compiler: D:/MinGW/bin/gcc.exe
+-- Check for working C compiler: D:/MinGW/bin/gcc.exe - broken
+CMake Error at D:/JetBrains/CLion 2020.2.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "D:/MinGW/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/THINKPAD/Documents/Tencent Files/1183289675/FileRecv/澶т笁涓�/璁＄畻鏈虹綉缁�/20184353浣曚繆浜畃roject/app1/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):D:/MinGW/bin/mingw32-make.exe cmTC_c26b9/fast && D:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c26b9.dir\build.make CMakeFiles/cmTC_c26b9.dir/build
+    mingw32-make.exe[1]: Entering directory 'C:/Users/THINKPAD/Documents/Tencent Files/1183289675/FileRecv/澶т笁涓�/璁＄畻鏈虹綉缁�/20184353浣曚繆浜畃roject/app1/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_c26b9.dir/testCCompiler.c.obj
+    D:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_c26b9.dir\testCCompiler.c.obj   -c "C:\Users\THINKPAD\Documents\Tencent Files\1183289675\FileRecv\婢堆傜瑏娑撳ガ鐠侊紕鐣婚張铏圭秹缂佹泛20184353娴ｆ洑绻嗘禍鐣價oject\app1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+    gcc.exe: error: C:\Users\THINKPAD\Documents\Tencent Files\1183289675\FileRecv\婢堆傜瑏娑撳ガ鐠侊紕鐣婚張铏圭秹缂佹泛20184353娴ｆ洑绻嗘禍鐣價oject\app1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+    gcc.exe: fatal error: no input files
+    compilation terminated.
+    CMakeFiles\cmTC_c26b9.dir\build.make:84: recipe for target 'CMakeFiles/cmTC_c26b9.dir/testCCompiler.c.obj' failed
+    mingw32-make.exe[1]: *** [CMakeFiles/cmTC_c26b9.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'C:/Users/THINKPAD/Documents/Tencent Files/1183289675/FileRecv/澶т笁涓�/璁＄畻鏈虹綉缁�/20184353浣曚繆浜畃roject/app1/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Makefile:140: recipe for target 'cmTC_c26b9/fast' failed
+    mingw32-make.exe: *** [cmTC_c26b9/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/THINKPAD/Documents/Tencent Files/1183289675/FileRecv/澶т笁涓�/璁＄畻鏈虹綉缁�/20184353浣曚繆浜畃roject/app1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/THINKPAD/Documents/Tencent Files/1183289675/FileRecv/澶т笁涓�/璁＄畻鏈虹綉缁�/20184353浣曚繆浜畃roject/app1/cmake-build-debug/CMakeFiles/CMakeError.log".
